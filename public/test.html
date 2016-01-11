@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Test</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+</head>
+<body id="app-layout" ng-app="app" ng-controller="mainCtrl">
+    <form>
+        <input type="text" name="search" placeholder="search"/>
+        <button type="submit">search</button>
+    </form>
+    <script>
+        var app = angular.module('app', []);
+        app.controller('mainCtrl', function($scope, $http) {
+        });
+    </script>
+</body>
+</html>
